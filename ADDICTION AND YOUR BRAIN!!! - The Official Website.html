@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADDICTION AND YOUR BRAIN!!! - The Official Website</title>
+<style>
+/* ======= HAND CODED IN NOTEPAD BY DGREENLEE2003 - DO NOT STEAL ======= */
+html { background:#000; }
+body {
+  margin:0; padding:0;
+  font-family:"Comic Sans MS","Comic Sans",cursive;
+  color:#00ff00;
+  background-color:#000044;
+  background-image:
+    radial-gradient(#fff 1px, transparent 1px),
+    radial-gradient(#fff 1px, transparent 1px),
+    radial-gradient(#ffff00 1px, transparent 1px),
+    repeating-linear-gradient(45deg,#000055 0 12px,#000033 12px 24px);
+  background-size:120px 120px, 90px 90px, 200px 200px, 48px 48px;
+  background-position:0 0, 40px 60px, 110px 20px, 0 0;
+  cursor:crosshair;
+}
+a { color:#ffff00; font-weight:bold; }
+a:visited { color:#ff00ff; }
+a:hover { color:#ff0000; background:#ffff00; }
+table { border-collapse:separate; }
+.frame {
+  width:800px; margin:8px auto; background:#000080;
+  border:6px ridge #c0c0c0; padding:6px;
+}
+.blink { animation:bl 0.6s steps(1,end) infinite; }
+@keyframes bl { 50% { opacity:0; } }
+.rainbowbar {
+  height:14px; margin:6px 0;
+  background:linear-gradient(90deg,red,orange,yellow,lime,cyan,blue,magenta,red);
+  background-size:200% 100%;
+  animation:slide 2s linear infinite;
+  border-top:2px solid #fff; border-bottom:2px solid #fff;
+}
+@keyframes slide { to { background-position:200% 0; } }
+h1,h2,h3 { font-family:Impact,"Arial Black",sans-serif; margin:4px 0; }
+h2 {
+  color:#ffff00; background:#ff0000; border:3px outset #ff8800;
+  padding:4px 6px; font-size:26px; letter-spacing:1px;
+  text-shadow:2px 2px 0 #000;
+}
+h3 { color:#00ffff; font-size:20px; text-decoration:underline; }
+.box {
+  background:#ffffcc; color:#000066; border:4px double #ff00ff;
+  padding:8px; margin:8px 0; font-size:15px; line-height:1.45;
+}
+.box b { background:#ffff00; }
+.navcell {
+  background:#660066; border:3px outset #cc00cc; padding:4px;
+  text-align:center; font-size:13px;
+}
+.navcell a { display:block; padding:3px; text-decoration:none; color:#00ff00; }
+.navcell a:hover { background:#00ff00; color:#660066; }
+.counter {
+  background:#000; border:3px inset #888; color:#00ff00;
+  font-family:"Courier New",monospace; font-size:22px; font-weight:bold;
+  letter-spacing:4px; padding:4px; text-align:center;
+}
+.badge {
+  display:inline-block; width:88px; height:31px; margin:2px;
+  font-family:Verdana,sans-serif; font-size:8px; font-weight:bold;
+  text-align:center; line-height:1.1; padding:2px 1px; box-sizing:border-box;
+  border:1px solid #fff; vertical-align:middle;
+}
+.popup {
+  position:fixed; top:40px; left:50%; margin-left:-170px; width:340px;
+  background:#c0c0c0; border:3px outset #fff; z-index:9999;
+  font-family:Verdana,sans-serif; color:#000; box-shadow:6px 6px 0 rgba(0,0,0,.6);
+}
+.popbar {
+  background:linear-gradient(90deg,#000080,#1084d0); color:#fff;
+  font-size:12px; font-weight:bold; padding:3px 4px;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.popbtn {
+  background:#c0c0c0; border:2px outset #fff; font-size:10px;
+  font-weight:bold; cursor:pointer; padding:0 4px;
+}
+.const {
+  display:inline-block; background:#ffcc00; color:#000;
+  border:4px solid #000; padding:4px 10px; font-family:Impact,sans-serif;
+  font-size:18px; transform:rotate(-4deg); margin:4px;
+  animation:wob 1.2s ease-in-out infinite alternate;
+}
+@keyframes wob { to { transform:rotate(4deg); } }
+.spin { display:inline-block; animation:sp 1.6s linear infinite; font-size:28px; }
+@keyframes sp { to { transform:rotate(360deg); } }
+.statusbar {
+  position:fixed; bottom:0; left:0; right:0; height:22px; overflow:hidden;
+  background:#c0c0c0; border-top:2px solid #fff; color:#000;
+  font-family:Verdana,sans-serif; font-size:11px; z-index:500;
+}
+.star { position:fixed; pointer-events:none; z-index:400; font-size:14px; color:#ffff00; }
+.guest {
+  background:#ffffff; color:#000; border:2px dotted #0000ff;
+  padding:6px; margin:6px 0; font-size:13px;
+}
+.wheel {
+  width:150px; height:150px; border-radius:50%; margin:0 auto;
+  background:conic-gradient(#ff0000 0 60deg,#ff8800 60deg 120deg,#ffff00 120deg 180deg,#00ff00 180deg 240deg,#00ffff 240deg 300deg,#ff00ff 300deg 360deg);
+  border:6px solid #fff; animation:sp 4s linear infinite;
+}
+.marq { background:#000; border:3px inset #00ff00; padding:3px; color:#00ff00; font-weight:bold; }
+td.addict { background:#ffffcc; color:#000066; border:4px ridge #0000ff; padding:7px; font-size:13px; width:50%; vertical-align:top; }
+.bigword { font-family:Impact,sans-serif; font-size:40px; color:#ff00ff; text-shadow:3px 3px 0 #00ffff, 6px 6px 0 #000; }
+.help { background:#006600; border:5px double #00ff00; color:#ffffff; padding:8px; font-size:14px; }
+input,select,textarea,button { font-family:"Comic Sans MS",cursive; }
+.hr2 { border:0; height:6px; background:repeating-linear-gradient(90deg,#ff0000 0 10px,#ffff00 10px 20px); }
+ol.cope li { margin-bottom:7px; }
+</style>
+</head>
+<body>
+
+<!-- ===== POP UP AD (2003 CLASSIC) ===== -->
+<div class="popup" id="pop">
+  <div class="popbar"><span>::: FREE OFFER - DO NOT CLOSE :::</span><span class="popbtn" onclick="document.getElementById('pop').style.display='none'">X</span></div>
+  <div style="padding:10px;text-align:center;font-size:12px">
+    <b class="blink" style="color:#cc0000;font-size:14px">CONGRATULATIONS!!!</b><br><br>
+    You are visitor <b>#1,000,000</b> to this website!!<br>
+    You have won a <b>FREE</b> group project grade of <b>100%</b>!<br><br>
+    <span style="font-size:10px">(you have not won anything. this is a bit.)</span><br><br>
+    <span class="popbtn" style="padding:4px 10px" onclick="document.getElementById('pop').style.display='none'">CLICK HERE TO CLAIM</span>
+  </div>
+</div>
+
+<div class="frame">
+
+<!-- ===== WORDART HEADER ===== -->
+<div style="text-align:center;background:#000;border:4px inset #888;padding:6px">
+<svg viewBox="0 0 760 130" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff0000"/><stop offset="20%" stop-color="#ff8800"/>
+      <stop offset="40%" stop-color="#ffff00"/><stop offset="60%" stop-color="#00ff00"/>
+      <stop offset="80%" stop-color="#00ffff"/><stop offset="100%" stop-color="#ff00ff"/>
+    </linearGradient>
+  </defs>
+  <text x="380" y="58" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="58"
+        fill="url(#rb)" stroke="#000" stroke-width="3" transform="skewX(-8)">ADDICTION</text>
+  <text x="380" y="106" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="46"
+        fill="url(#rb)" stroke="#000" stroke-width="3" transform="skewX(-8)">&amp; YOUR BRAIN</text>
+</svg>
+<div style="color:#ffff00;font-size:13px">a Sports &amp; Entertainment Marketing project website * EST. 2003</div>
+</div>
+
+<marquee class="marq" scrollamount="7">&#9733;&#9733;&#9733; WELCOME 2 OUR WEBSITE &#9733;&#9733;&#9733; PLZ SIGN THE GUESTBOOK &#9733;&#9733;&#9733; TURN UR SPEAKERS ON 4 THE MIDI &#9733;&#9733;&#9733; THIS SITE IS ABOUT GAMBLING, VAPING, DRINKING, AND UR PHONE &#9733;&#9733;&#9733; BEST VIEWED AT 800x600 &#9733;&#9733;&#9733;</marquee>
+
+<div class="rainbowbar"></div>
+
+<table width="100%" cellpadding="0" cellspacing="6">
+<tr>
+
+<!-- ============ SIDEBAR ============ -->
+<td width="180" valign="top">
+
+  <div class="navcell">
+    <b style="color:#ffff00">&#9658; NAVIGATION &#9668;</b>
+    <a href="#welcome">HOME PAGE</a>
+    <a href="#gambling">GAMBLING + BRAIN <span class="blink" style="color:#ff0000">NEW!</span></a>
+    <a href="#sports">MENTAL HEALTH IN SPORTS</a>
+    <a href="#four">THE 4 ADDICTIONS</a>
+    <a href="#cope">GOOD WAYS 2 COPE</a>
+    <a href="#video">OUR VIDEO PLAN</a>
+    <a href="#crew">THE CREW (US)</a>
+    <a href="#guestbook">GUESTBOOK</a>
+    <a href="#sources">SOURCES/BIBLIO</a>
+  </div>
+
+  <div style="text-align:center;margin-top:8px">
+    <div style="color:#ffff00;font-size:11px">YOU ARE VISITOR NUMBER</div>
+    <div class="counter" id="hits">00000001</div>
+    <div style="color:#00ffff;font-size:10px">since Nov. 2003</div>
+  </div>
+
+  <div style="margin-top:8px;background:#000;border:3px ridge #ffff00;padding:5px;text-align:center">
+    <div style="color:#ff00ff;font-size:12px;font-weight:bold">&#9835; MIDI PLAYER &#9835;</div>
+    <div class="spin">&#9835;</div>
+    <div><button id="midi" onclick="toggleMidi()" style="font-size:11px;border:2px outset #fff;background:#c0c0c0;cursor:pointer">&#9654; PLAY MIDI</button></div>
+    <div style="color:#00ff00;font-size:9px;margin-top:3px">"brain_dopamine_loop.mid"</div>
+  </div>
+
+  <div style="margin-top:8px;background:#330033;border:3px outset #ff00ff;padding:5px;color:#fff;font-size:11px">
+    <b style="color:#ffff00">&#9658; VOTE IN OUR POLL!</b><br>
+    whats ur biggest distraction??<br>
+    <label><input type="radio" name="p"> my phone</label><br>
+    <label><input type="radio" name="p"> parlays</label><br>
+    <label><input type="radio" name="p"> the vape</label><br>
+    <label><input type="radio" name="p"> this website</label><br>
+    <button onclick="vote()" style="font-size:10px;margin-top:4px">VOTE!!</button>
+    <div id="pollres" style="color:#00ff00;margin-top:4px"></div>
+  </div>
+
+  <div style="margin-top:8px;text-align:center">
+    <div class="badge" style="background:#000;color:#00ff00">MADE WITH<br>NOTEPAD<br>&amp; SPITE</div>
+    <div class="badge" style="background:#0000aa;color:#ffff00">BEST VIEWED<br>IN ANY<br>BROWSER</div>
+    <div class="badge" style="background:#ffff00;color:#cc0000">HTML 4.01<br>BARELY<br>VALID</div>
+    <div class="badge" style="background:#cc0000;color:#fff">56K<br>WARNING<br>HEAVY SITE</div>
+    <div class="badge" style="background:#008000;color:#fff">MIDI<br>ENABLED<br>SITE</div>
+    <div class="badge" style="background:#000;color:#ff00ff">NO FRAMES<br>ZONE<br>(SORRY)</div>
+  </div>
+
+</td>
+
+<!-- ============ MAIN CONTENT ============ -->
+<td valign="top">
+
+<a name="welcome"></a>
+<h2>&#9755; WELCOME 2 OUR WEBSITE &#9754;</h2>
+<div class="box">
+  <div style="text-align:center">
+    <span class="const">&#9888; UNDER CONSTRUCTION &#9888;</span>
+    <span class="const" style="background:#ff6600">&#9888; PLZ EXCUSE OUR MESS &#9888;</span>
+  </div>
+  <p><b>HELLO AND WELCOME, WEB SURFER.</b> You have landed on the official homepage about four addictions that wreck your mental health, what gambling does to your head, and why athletes are getting hit the hardest right now. We made this site for our Sports and Entertainment Marketing project, and we built it to look like it was coded in a basement in 2003 because that is funnier than a normal website.</p>
+  <p>Underneath the rainbow bars and the spinning envelope, every single statistic on here is real and every source is linked at the bottom. Scroll down, read the facts, then watch for our video.</p>
+  <p style="text-align:center"><span class="bigword">4 ADDICTIONS</span><br>
+  <b>SMOKING/VAPING &#9830; PHONES &#9830; DRINKING &#9830; GAMBLING</b></p>
+</div>
+
+<hr class="hr2">
+
+<a name="gambling"></a>
+<h2>&#9824; GAMBLING AFFECTS ON MENTAL HEALTH &#9824;</h2>
+<div class="box">
+  <p><b>Gambling is the only behavior that psychiatry officially classifies as an addiction the same way it classifies drugs.</b> In the DSM-5, the manual doctors use to diagnose, gambling disorder sits in the same chapter as substance use disorders because it hijacks the same dopamine reward pathways. Your brain does not know the difference between a slot machine and a chemical.</p>
+
+  <h3>&#9658; WHAT THE RESEARCH SAYS</h3>
+  <ul>
+    <li><b>Problem gambling travels in a pack.</b> Research consistently shows gambling problems occur alongside nicotine dependence, alcohol use disorders, depression, and anxiety, and the relationship runs both directions. <Harms from gambling can lead to poor mental health, and people already experiencing mental illness are at greater risk of developing gambling problems.</li>
+    <li><b>Depression risk multiplies.</b> Problem gamblers were around three times more likely than non-gamblers to suffer a major depressive episode.</li>
+    <li><b>Two out of three.</b> <Two out of three gamblers reported that their mental health suffered as a result of their gambling problems.</li>
+    <li><b>The crisis risk is real.</b> <5% of problem gamblers reported a suicide attempt in the past year, compared with 0.6% of people showing no sign of problem gambling, and researchers argue problem gamblers should be treated as a high-risk group in suicide prevention.</li>
+  </ul>
+
+  <h3>&#9658; WHY IT HITS TEENAGERS SO HARD</h3>
+  <p>The reward part of the adolescent brain develops faster than the prefrontal cortex, which is the part that handles impulse control and long-term planning. That gap is why a 16 year old can fully understand that parlays lose money and chase one anyway. Sportsbooks are built on near misses, and a near miss lights up the brain almost like a win, which is what keeps people pulling the lever.</p>
+
+  <div class="help">
+    <b>&#9873; IF THIS IS HITTING TOO CLOSE TO HOME &#9873;</b><br>
+    Call or text <b>988</b> for the Suicide and Crisis Lifeline, or call <b>1-800-GAMBLER</b> for the National Problem Gambling Helpline. Both are free, open 24/7, and talking to a school counselor counts too. Nobody has ever gotten in trouble for asking for help.
+  </div>
+</div>
+
+<hr class="hr2">
+
+<a name="sports"></a>
+<h2>&#9917; MENTAL HEALTH IN SPORTS &#9917;</h2>
+<div class="box">
+  <p>Athletes get treated like they are made of iron, and the numbers say otherwise. Three pressures stack on top of each other: performance anxiety, identity built entirely around a sport that can end with one injury, and a locker room culture where admitting you are struggling reads as weakness. Add legalized sports betting and now strangers have money riding on a teenager's free throws.</p>
+
+  <h3>&#9658; THE BETTING PROBLEM IS NOW A MENTAL HEALTH PROBLEM</h3>
+  <ul>
+    <li><46% of men's basketball players in the NCAA's 2026 Student-Athlete Needs, Aspirations and Perspectives survey reported experiencing abuse over betting losses, the highest share among men's sports.</li>
+    <li><Nearly 60% of college basketball players surveyed said sports betting has contributed to unfair public scrutiny of athletes, and 74% of women's and 65% of men's basketball athletes agreed betting harms their sport's reputation.</li>
+    <li><36% of Division I men's basketball athletes reported social media abuse related to sports betting within the last year, and 29% said a student on campus had told them they bet on their team.</li>
+    <li><Among Football Bowl Subdivision players, 16% reported receiving negative or threatening messages and 26% interacted with a student who had bet on their team.</li>
+    <li><Abuse rates by sport: 21% of FBS football players, 13% of FCS football, 8% of baseball, and 6% of soccer athletes reported betting-related abuse.</li>
+  </ul>
+
+  <h3>&#9658; THE DOUBLE WHAMMY</h3>
+  <p>An athlete can be battling an addiction of their own while also absorbing harassment from strangers who are battling theirs. One study of Division I athletes found online harassment correlated positively with depression. The kid who missed the shot goes home and reads 40 messages about it, and that is now a standard Tuesday.</p>
+  <div style="text-align:center"><span class="blink" style="color:#cc0000;font-weight:bold;font-size:16px">&#9658;&#9658; ATHLETES ARE PEOPLE. ACT LIKE IT. &#9668;&#9668;</span></div>
+</div>
+
+<hr class="hr2">
+
+<a name="four"></a>
+<h2>&#9888; 4 ADDICTIONS THAT AFFECT MENTAL HEALTH &#9888;</h2>
+<table width="100%" cellspacing="6" cellpadding="0">
+<tr>
+  <td class="addict">
+    <h3>1. SMOKING &amp; VAPING &#128684;</h3>
+    <p>Nicotine sells itself as a stress reliever and then manufactures the stress it claims to fix. Withdrawal between hits causes anxiety, irritability, and low mood, so the relief you feel is your own withdrawal ending.</p>
+    <p><b>THE NUMBERS:</b> <In 2024, 42.1% of youth who currently used e-cigarettes reported moderate-to-severe symptoms of depression and anxiety, compared with 21.0% of youth who did not use them. <Most youth who vape tried to quit in the past year (69.4%), but over half (58.5%) used no quitting resources at all.</p>
+    <p><b>FOR ATHLETES:</b> nicotine constricts blood vessels and wrecks sleep quality, and sleep is where the body actually repairs itself. Worse recovery, worse practice, worse mood.</p>
+  </td>
+  <td class="addict">
+    <h3>2. PHONE &amp; SOCIAL MEDIA &#128241;</h3>
+    <p>Phone addiction is not an official DSM diagnosis, and that honesty matters for our project. What research does show is a strong link between heavy social media use and worse teen mental health, which is why the US Surgeon General has issued advisories about it twice since 2021.</p>
+    <p><b>THE NUMBERS:</b> <21% of adolescents ages 12 to 17 reported anxiety symptoms in the past two weeks and 17% reported depression symptoms. <Female adolescents were more than twice as likely as male peers to report anxiety (31% vs 12%) and depression (25% vs 10%).</p>
+    <p><b>FOR ATHLETES:</b> the phone is where the harassment arrives. See the sports section above.</p>
+  </td>
+</tr>
+<tr>
+  <td class="addict">
+    <h3>3. DRINKING &#127866;</h3>
+    <p>Alcohol is a depressant, full stop. It feels like it turns off anxiety because it suppresses the central nervous system, then the rebound the next day leaves anxiety higher than where it started. It also destroys REM sleep, which is the stage that processes emotion.</p>
+    <p><b>WHY TEENS SPECIFICALLY:</b> the brain keeps developing into the mid-twenties, and alcohol interferes with that construction project. Depression and alcohol misuse also feed each other, so treating only one tends to fail.</p>
+    <p><b>FOR ATHLETES:</b> dehydration, lost sleep, slower reaction time, and longer injury recovery. One night out can cost most of a week of training.</p>
+  </td>
+  <td class="addict">
+    <h3>4. GAMBLING &#127920;</h3>
+    <p>The one with an official diagnosis and a betting app on nearly every phone in the building. See the full section above for the research, but the short version is that it reliably brings depression and anxiety with it, and it is the only item on this list you can lose your rent to in 15 seconds.</p>
+    <p><b>THE TELL:</b> chasing losses. Betting to win back what you lost is the single clearest warning sign, and it is the behavior sportsbook design encourages most.</p>
+    <p><b>FOR ATHLETES:</b> betting on your own sport ends eligibility and careers, and <NCAA enforcement has opened investigations into roughly 30 current or former men's basketball student-athletes over potential sports betting violations.</p>
+  </td>
+</tr>
+</table>
+
+<hr class="hr2">
+
+<a name="cope"></a>
+<h2>&#9728; GOOD WAYS TO COPE &#9728;</h2>
+<div class="box">
+  <div style="text-align:center"><div class="wheel"></div><div style="font-size:11px;color:#cc0000"><b>THE OFFICIAL COPING WHEEL&#8482;</b> (it does nothing, it just spins)</div></div>
+  <p>Every addiction on this page is a shortcut to feeling better, which means the only thing that beats it is a real route to feeling better. These are the strategies that actually hold up in research.</p>
+  <ol class="cope">
+    <li><b>Tell one person out loud.</b> A friend, a parent, a coach, a counselor. Addiction depends on secrecy, and saying it to one human being takes most of its power away.</li>
+    <li><b>Protect your sleep before anything else.</b> Seven to nine hours, phone out of arm's reach. Sleep deprivation imitates anxiety and depression so closely that fixing sleep first makes everything else easier to read.</li>
+    <li><b>Move your body on purpose.</b> Exercise is one of the most reliably supported mood interventions there is, and you do not need a gym for it. A walk counts.</li>
+    <li><b>Learn box breathing.</b> Inhale four counts, hold four, exhale four, hold four. Repeat five times. It physically slows your heart rate, and it works in a hallway, on a bench, or in a bathroom before a test.</li>
+    <li><b>Put friction between you and the habit.</b> Delete the app, leave the card at home, set a screen curfew, keep the vape somewhere inconvenient. Willpower loses to design, so change the design.</li>
+    <li><b>Replace, do not just remove.</b> The habit was doing a job for you, whether that was boredom, stress, or social connection. Pick something that does the same job: lifting, music, drawing, cooking, a sport, a group chat that is not about betting.</li>
+    <li><b>Write it down.</b> Journaling what triggered the urge and what happened after builds the pattern recognition you need to see it coming next time.</li>
+    <li><b>Use the free professional help.</b> School counselors, 988 for crisis support, 1-800-GAMBLER for gambling, and free quit-vaping text programs all exist and cost nothing. <Most young people who vape want to quit and more than half use zero resources, which is the easiest gap on this whole page to close.</li>
+  </ol>
+  <p style="text-align:center"><b class="blink" style="color:#008000">ASKING FOR HELP IS THE STRONGEST THING ON THIS LIST.</b></p>
+</div>
+
+<hr class="hr2">
+
+<a name="video"></a>
+<h2>&#127909; OUR VIDEO PLAN &#127909;</h2>
+<div class="box">
+  <p>We are making a video about the four addictions and how they hit athletes. Here is the plan so nobody shows up to filming confused.</p>
+  <table width="100%" cellpadding="5" cellspacing="0" style="font-size:13px;border:2px solid #000">
+    <tr style="background:#000080;color:#ffff00;font-weight:bold"><td>SHOT</td><td>WHAT HAPPENS</td><td>TIME</td></tr>
+    <tr style="background:#fff"><td><b>1. COLD OPEN</b></td><td>Locker room. Phone buzzing with bet notifications over a player taping ankles. No dialogue.</td><td>0:00-0:15</td></tr>
+    <tr style="background:#eee"><td><b>2. TITLE</b></td><td>Screen-record this website, including the popup ad. Instant laugh and it sets up the topic.</td><td>0:15-0:25</td></tr>
+    <tr style="background:#fff"><td><b>3. THE FOUR</b></td><td>Four quick vignettes, roughly 20 seconds each: vape in the bathroom, phone at 2am, party cup, parlay slip. Stat on screen for each.</td><td>0:25-1:45</td></tr>
+    <tr style="background:#eee"><td><b>4. THE ATHLETE ANGLE</b></td><td>The 46% betting-abuse number on screen while a player reads DMs after a loss. This is the emotional center of the video.</td><td>1:45-2:30</td></tr>
+    <tr style="background:#fff"><td><b>5. THE TURN</b></td><td>Same player talks to a coach. Hand off the phone. Go run. Show the coping list working instead of lecturing about it.</td><td>2:30-3:10</td></tr>
+    <tr style="background:#eee"><td><b>6. CLOSE</b></td><td>988 and 1-800-GAMBLER on a clean card, held long enough to read twice. Sources credited.</td><td>3:10-3:30</td></tr>
+  </table>
+  <p style="font-size:12px"><b>RULE FOR FILMING:</b> show the behavior, never glamorize it, and never show methods of self-harm. End on help, not on damage.</p>
+</div>
+
+<hr class="hr2">
+
+<a name="crew"></a>
+<h2>&#9819; THE CREW &#9819;</h2>
+<div class="box">
+<table width="100%" cellpadding="5" cellspacing="0" style="font-size:13px">
+  <tr style="background:#000080;color:#ffff00;font-weight:bold"><td>NAME</td><td>SCREEN NAME</td><td>JOB</td></tr>
+  <tr style="background:#fff"><td><b>Kinley White</b></td><td>xXsk8rgrl_kinleyXx</td><td>Script &amp; narration</td></tr>
+  <tr style="background:#eee"><td><b>Dallas Cook</b></td><td>DaLLa$_C00K</td><td>Camera &amp; lighting</td></tr>
+  <tr style="background:#fff"><td><b>Danny Greenlee</b></td><td>DGreenlee2003</td><td>Webmaster, hand coded this in Notepad</td></tr>
+  <tr style="background:#eee"><td><b>Andrew UwU</b></td><td>AndrewUwU</td><td>Graphics dept, head of WordArt</td></tr>
+  <tr style="background:#fff"><td><b>Armaan Vidwan</b></td><td>ArmaanV_99</td><td>Research &amp; statistics</td></tr>
+  <tr style="background:#eee"><td><b>Tomas Scott Chiriboga</b></td><td>T0MAS_SC0TT_C</td><td>Editing &amp; motion graphics</td></tr>
+  <tr style="background:#fff"><td><b>Walker Shute</b></td><td>WalkerShute56k</td><td>Sound design &amp; the MIDI</td></tr>
+</table>
+<div style="text-align:center;margin-top:6px">
+  <span class="spin">&#9993;</span>
+  <a href="#guestbook">EMAIL THE WEBMASTER</a>
+  <span class="spin">&#9993;</span>
+</div>
+</div>
+
+<hr class="hr2">
+
+<a name="guestbook"></a>
+<h2>&#9999; SIGN MY GUESTBOOK &#9999;</h2>
+<div class="box">
+  <div class="guest"><b>Coach_M</b> <span style="color:#888">11/18/03 4:42 PM</span><br>cool site. fix the music it is loud. A-</div>
+  <div class="guest"><b>anonymous_visitor_47</b> <span style="color:#888">11/18/03 9:01 PM</span><br>i closed the popup three times and it keeps coming back. 10/10 authentic</div>
+  <div class="guest"><b>WalkerShute56k</b> <span style="color:#888">11/19/03 7:15 AM</span><br>the midi is my best work and i will not be taking questions</div>
+  <div class="guest"><b>ArmaanV_99</b> <span style="color:#888">11/19/03 7:33 AM</span><br>every stat on here is cited at the bottom btw. we actually did the reading</div>
+  <div style="background:#ffffff;color:#000;border:3px inset #888;padding:7px;margin-top:8px">
+    <b>ADD UR ENTRY:</b><br>
+    NAME: <input id="gname" size="18"><br>
+    MESSAGE:<br><textarea id="gmsg" rows="3" cols="38"></textarea><br>
+    <button onclick="signGuest()" style="border:2px outset #fff;background:#c0c0c0;cursor:pointer">SUBMIT 2 GUESTBOOK</button>
+    <div id="gout" style="color:#008000;font-weight:bold;margin-top:5px"></div>
+  </div>
+</div>
+
+<hr class="hr2">
+
+<a name="sources"></a>
+<h2>&#128218; SOURCES / BIBLIOGRAPHY &#128218;</h2>
+<div class="box" style="font-size:13px">
+  <p>Every number on this site came from one of these. Click them, they are real.</p>
+  <ol>
+    <li><a href="https://www.nimh.nih.gov/health/topics/child-and-adolescent-mental-health">National Institute of Mental Health, Child and Adolescent Mental Health</a>, including teen fact sheets and digital shareables on stress, anxiety, depression, and adolescent brain development.</li>
+    <li><a href="https://www.cdc.gov/pcd/issues/2025/25_0186.htm">CDC, Preventing Chronic Disease (2025), E-Cigarette Use and Symptoms of Depression and Anxiety Among US Middle and High School Students</a>, based on the 2024 National Youth Tobacco Survey.</li>
+    <li><a href="https://www.kff.org/mental-health/roughly-1-in-5-adolescents-report-experiencing-symptoms-of-anxiety-or-depression/">KFF analysis of the Teen National Health Interview Survey</a> on adolescent anxiety and depression symptoms.</li>
+    <li><a href="https://www.ncaa.org/news/2025/11/18/media-center-ncaa-study-finds-over-one-third-of-di-mens-basketball-student-athletes-harassed-by-bettors">NCAA, study on sports betting harassment of Division I student-athletes (Nov. 2025)</a> and the <a href="https://www.ncaa.org/">NCAA SNAP survey updates (2026)</a>.</li>
+    <li><a href="https://marylandmatters.org/2026/10/16/ncaa-survey-mens-basketball-players-are-at-highest-risk-of-abuse/">Maryland Matters reporting on the 2026 NCAA SNAP survey results</a>.</li>
+    <li><a href="https://www.gamblingcommission.gov.uk/news/article/new-analysis-shows-problem-gamblers-are-more-likely-than-others-to-have">UK Gambling Commission and GambleAware analysis of problem gambling and suicide risk</a>.</li>
+    <li><a href="https://dbhdd.georgia.gov/document/document/pg-and-suicide-depressionpdf/download">Georgia Dept. of Behavioral Health, Depression, Suicide and Problem Gambling</a>.</li>
+    <li><a href="https://www.cdc.gov/free-mind/">CDC Free Mind, quitting vaping and mental health resources for teens</a>.</li>
+    <li><a href="https://988lifeline.org/">988 Suicide and Crisis Lifeline</a> and the <a href="https://www.ncpgambling.org/help-treatment/">National Problem Gambling Helpline, 1-800-GAMBLER</a>.</li>
+  </ol>
+</div>
+
+<!-- ===== WEBRING ===== -->
+<div style="background:#000;border:4px ridge #00ffff;padding:7px;text-align:center;color:#00ffff;font-size:12px;margin-top:10px">
+  <b>&#9668;&#9668; THE HEALTH CLASS WEBRING &#9658;&#9658;</b><br>
+  <a href="#welcome">[ PREV SITE ]</a> &#8226; <a href="#welcome">[ RANDOM ]</a> &#8226; <a href="#welcome">[ NEXT SITE ]</a> &#8226; <a href="#welcome">[ JOIN ]</a><br>
+  <span style="font-size:10px">site 7 of 7 &#8226; ring maintained by DGreenlee2003</span>
+</div>
+
+<div style="text-align:center;margin-top:8px">
+  <div class="badge" style="background:#ffd700;color:#000">GOLDEN WEB<br>AWARD<br>WINNER*</div>
+  <div class="badge" style="background:#000;color:#ffff00">TOP 100<br>HEALTH<br>SITES</div>
+  <div class="badge" style="background:#8b0000;color:#fff">COOL SITE<br>OF THE<br>DAY</div>
+  <span style="color:#888;font-size:9px">*self awarded</span>
+</div>
+
+</td>
+</tr>
+</table>
+
+<div class="rainbowbar"></div>
+
+<div style="text-align:center;color:#ffff00;font-size:11px;padding:6px 0 26px 0">
+  <marquee scrollamount="4" direction="right" style="color:#00ff00">&#9733; THANK U 4 VISITING &#9733; PLZ COME BACK SOON &#9733; TELL UR FRIENDS &#9733;</marquee>
+  LAST UPDATED: 11/19/03 &#8226; &copy; 2003 ADDICTION AND YOUR BRAIN &#8226; ALL RIGHTS RESERVED &#8226; DO NOT STEAL MY HTML<br>
+  This site contains health information for a school project and is not medical advice.<br>
+  Optimized for Internet Explorer 6 at 800x600. If this looks broken, that is the point.
+</div>
+
+</div>
+
+<div class="statusbar"><div id="sbtext" style="white-space:nowrap;padding:4px 0">Loading... please wait... connecting at 56.6 kbps...</div></div>
+
+<script>
+/* ===== HIT COUNTER ===== */
+var hits = 4271;
+try { var s = localStorage.getItem('hits2003'); if (s) hits = parseInt(s,10)+1; localStorage.setItem('hits2003',hits); } catch(e) {}
+document.getElementById('hits').textContent = String(hits).padStart(8,'0');
+
+/* ===== SCROLLING STATUS BAR ===== */
+var msgs = [
+  'Done. 14 images loaded (0 of them real).',
+  'TIP: 988 is free and open 24/7.',
+  'TIP: chasing losses is the #1 warning sign.',
+  'Applet DancingBrain.class failed to load.',
+  'TIP: fix your sleep before you fix anything else.',
+  'This page uses 1 (one) table layout. Nested 3 deep.',
+  'TIP: most teens who vape want to quit. Use a real resource.'
+];
+var mi = 0;
+setInterval(function(){ mi=(mi+1)%msgs.length; document.getElementById('sbtext').textContent = msgs[mi]; }, 3200);
+
+/* ===== STAR MOUSE TRAIL ===== */
+var chars = ['★','✦','✧','✻'];
+var last = 0;
+document.addEventListener('mousemove', function(e){
+  var now = Date.now();
+  if (now - last < 45) return;
+  last = now;
+  var s = document.createElement('div');
+  s.className = 'star';
+  s.textContent = chars[Math.floor(Math.random()*chars.length)];
+  s.style.left = e.clientX + 'px';
+  s.style.top = e.clientY + 'px';
+  s.style.color = ['#ffff00','#ff00ff','#00ffff','#ff0000'][Math.floor(Math.random()*4)];
+  document.body.appendChild(s);
+  var o = 1;
+  var f = setInterval(function(){
+    o -= 0.08;
+    s.style.opacity = o;
+    s.style.top = (parseFloat(s.style.top) + 1.4) + 'px';
+    if (o <= 0) { clearInterval(f); s.remove(); }
+  }, 40);
+});
+
+/* ===== THE MIDI (web audio, square wave, deeply 2003) ===== */
+var ctx=null, playing=false, timer=null, step=0;
+var notes = [262,330,392,330,262,330,392,523,392,330,294,247];
+function toggleMidi(){
+  var b = document.getElementById('midi');
+  if (playing) { playing=false; clearInterval(timer); b.innerHTML='&#9654; PLAY MIDI'; return; }
+  try {
+    if (!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)();
+    if (ctx.state === 'suspended') ctx.resume();
+  } catch(e) { b.textContent='NO SOUND CARD'; return; }
+  playing = true;
+  b.innerHTML = '&#9632; STOP MIDI';
+  timer = setInterval(function(){
+    var o = ctx.createOscillator(), g = ctx.createGain();
+    o.type='square';
+    o.frequency.value = notes[step % notes.length];
+    g.gain.setValueAtTime(0.06, ctx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime+0.22);
+    o.connect(g); g.connect(ctx.destination);
+    o.start(); o.stop(ctx.currentTime+0.25);
+    if (step % 4 === 0) {
+      var b2 = ctx.createOscillator(), g2 = ctx.createGain();
+      b2.type='triangle'; b2.frequency.value = 65;
+      g2.gain.setValueAtTime(0.09, ctx.currentTime);
+      g2.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime+0.3);
+      b2.connect(g2); g2.connect(ctx.destination);
+      b2.start(); b2.stop(ctx.currentTime+0.3);
+    }
+    step++;
+  }, 250);
+}
+
+/* ===== POLL ===== */
+function vote(){
+  document.getElementById('pollres').innerHTML = 'RESULTS:<br>my phone 61%<br>parlays 22%<br>the vape 14%<br>this website 3%<br><span style="color:#ffff00">thx 4 voting!</span>';
+}
+
+/* ===== GUESTBOOK ===== */
+function signGuest(){
+  var n = document.getElementById('gname').value.trim() || 'anonymous_visitor';
+  var m = document.getElementById('gmsg').value.trim();
+  if (!m) { document.getElementById('gout').textContent = 'ERROR 404: u gotta type a message'; return; }
+  var d = document.createElement('div');
+  d.className = 'guest';
+  d.innerHTML = '<b>' + n.replace(/[<>]/g,'') + '</b> <span style="color:#888">just now</span><br>' + m.replace(/[<>]/g,'');
+  var out = document.getElementById('gout');
+  out.parentNode.parentNode.insertBefore(d, out.parentNode);
+  document.getElementById('gmsg').value='';
+  out.innerHTML = 'ENTRY POSTED!! (it lives in your browser only, this is 2003, we have no server)';
+}
+</script>
+</body>
+</html>
